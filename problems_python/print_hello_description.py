@@ -8,6 +8,10 @@ def get_print_hello_description():
 
     print_hello_description=["Printhello", "is the best educational gateway for every year to kickstart their coding life. Thapar Alumni who gave their heart in teaching languages and prepare students for their placements now starting the best languages batches C/C++ and Python from 8th October onwards . It not only focus on just completing the course but logic development and making awesome projects with that language is their key goal"]
     print_hello_tuple = ()
+    templist=[]
     for word in print_hello_description:
-        print_ hello_tuple.append(word)
+        templist.append(word)
+    print_hello_tuple=tuple(templist)
     return print_hello_tuple
+
+     
