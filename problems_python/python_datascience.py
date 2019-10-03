@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 Print Hello is a initiative which is led by two coding enthusiasts Naveen and Vipin who want to change the world with their belief that everyone can code and that too beautifully.
 """
