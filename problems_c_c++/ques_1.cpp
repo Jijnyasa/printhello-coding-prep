@@ -4,8 +4,8 @@
 #include <iostream>
 using namespace std;
 char* get_company_name(){
-    char *initial = "Print";
-    char *rest_name = "hello";
+    char initial[20] = "Print";
+    char rest_name[10] = "hello";
     return strcat(initial,rest_name);
 }
 int main() {
